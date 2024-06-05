@@ -36,6 +36,11 @@ a {
     justify-content: center;
 }
 
+.btn:hover {
+    background-color: #ff6f61;
+    color: #fff;
+}
+
 .btn img {
     width: 20px;
     margin-left: 10px;

@@ -1,0 +1,28 @@
+.home {
+  margin: 80px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 25px 120px;
+}
+
+.hero-text {
+  flex-basis: 33%;
+}
+
+.hero-text h1 {
+  color: #f5f5f5;
+  font-size: 40px;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+}
+
+.hero-text p {
+  color: #aeadad;
+  line-height: 2;
+}
+
+.home img {
+  max-width: 300px;
+  flex-basis: 60%;
+}

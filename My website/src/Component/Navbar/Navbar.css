@@ -20,6 +20,7 @@ nav ul li {
 
 nav li:hover {
     color: #ff6f61;
+    /* text-decoration: underline; */
 }
 
 nav h2 {
