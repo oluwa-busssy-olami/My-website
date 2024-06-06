@@ -10,7 +10,7 @@ const Hero = () => {
         <p>
           I'm a Front-End Developer and a one time blogger from Nigeria who is
           passionate about making responsive user interfaces, user-friendly
-          website and webpages emotive and clear.
+          website and webpages beautiful and smooth.
         </p>
       </div>
       <img src={my_picture} alt="" />
