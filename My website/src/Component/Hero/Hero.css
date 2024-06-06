@@ -54,6 +54,6 @@
   .home img {
     flex-basis: 100%;
     margin-top: 20px;
-    max-width: 100%;
+    width: 100%;
   }
 }

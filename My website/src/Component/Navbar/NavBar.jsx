@@ -14,7 +14,7 @@ const NavBar = () => {
       <h2>Busolami</h2>
       <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
         <li>
-          <Link to="hero" smooth={true} offset={0} duration={500}>
+          <Link to="home" smooth={true} offset={0} duration={500}>
             Home
           </Link>
         </li>
@@ -24,7 +24,7 @@ const NavBar = () => {
           </Link>
         </li>
         <li>
-          <Link to="blog" smooth={true} offset={-150} duration={500}>
+          <Link to="blogs" smooth={true} offset={-260} duration={500}>
             Blog
           </Link>
         </li>
