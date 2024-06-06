@@ -1,0 +1,40 @@
+.contact {
+  margin: 80px auto;
+  max-width: 50%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.contact form input,
+.contact form textarea {
+  display: block;
+  width: 100%;
+  background-color: #ebecfe;
+  padding: 15px;
+  border: none;
+  outline: none;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  /* resize: none; */
+}
+
+.contact form label {
+  font-size: 14px;
+  color: #ebecfe;
+  margin-bottom: 10px;
+}
+
+.contact-col span {
+  display: block;
+  margin: 20px 0;
+}
+
+@media (max-width: 700px) {
+  .contact {
+    display: block;
+  }
+  .contact-col {
+    padding: 30px;
+  }
+}

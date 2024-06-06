@@ -1,0 +1,39 @@
+.footer {
+  margin: 60px auto 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h3 {
+  color: #f2f2f2;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.social {
+  display: inline-block;
+  align-items: center;
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 8px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #000;
+  margin: 10px;
+  transition: transform 0.3s, box-shadow 0.3s, color 0.3s;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  color: #007bff;
+}

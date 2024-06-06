@@ -1,0 +1,28 @@
+.skills {
+  margin: 80px auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon-style {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 8px;
+  border-radius: 8px;
+  margin: 10px 40px;
+  transition: transform 0.3s, box-shadow 0.3s, color 0.3s;
+}
+
+.icon-style:hover {
+  transform: scale(1.2);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  color: #007bff;
+}
