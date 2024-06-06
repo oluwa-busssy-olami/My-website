@@ -1,58 +1,66 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Outfit", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
 }
 
 body {
-    background-color: #0a2342;
+  background-color: #0a2342;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
-    cursor: pointer;
-    line-height: 1;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  line-height: 1;
 }
 
 .container {
-    padding-left: 10%;
-    padding-right: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .btn {
-    background: #a9d6e5;
-    color: #0a2342;
-    padding: 10px 25px;
-    border-radius: 30px;
-    cursor: pointer;
-    border: 0;
-    outline: 0;
-    font-size: 14px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+  background: #a9d6e5;
+  color: #0a2342;
+  padding: 10px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn:hover {
-    background-color: #ff6f61;
-    color: #fff;
+  background-color: #ff6f61;
+  color: #fff;
 }
 
 .btn img {
-    width: 20px;
-    margin-left: 10px;
+  width: 20px;
+  margin-left: 10px;
 }
 
 @media (max-width: 1200px) {
-    .container {
-        padding-left: 5%;
-        padding-right: 5%;
-    }
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .btn {
+    padding: 14px 22px;
+  }
 }
 
-.btn {
-    padding: 14px 22px;
+@media (max-width: 800px) {
+  .container {
+    padding: 0 8px;
+  }
+  .btn {
+    padding: 10px 18px;
+  }
 }

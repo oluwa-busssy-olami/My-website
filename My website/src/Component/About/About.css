@@ -60,3 +60,32 @@ h3 {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   color: #007bff;
 }
+
+@media (max-width: 800px) {
+  .about {
+    flex-direction: column-reverse;
+    margin-top: 20px;
+  }
+  .my-profile {
+    flex-basis: 100%;
+    margin: 20px;
+    border-radius: 20px;
+    background: transparent;
+    width: 100%;
+  }
+  .about div {
+    flex-basis: 100%;
+    margin: 20px;
+  }
+  .about p {
+    line-height: 1.4;
+    font-size: 16px;
+  }
+  .social {
+    padding-left: 0;
+  }
+  .icon {
+    width: 10px;
+    height: 10px;
+  }
+}

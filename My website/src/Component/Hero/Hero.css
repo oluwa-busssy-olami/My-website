@@ -30,3 +30,29 @@
   padding: 10px 10px;
   border-radius: 12px;
 }
+
+@media (max-width: 850px) {
+  .hero-text h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 650px) {
+  .home {
+    flex-direction: column;
+    padding: 10px 15px;
+    margin-top: 80px;
+  }
+  .hero-text h1 {
+    font-size: 20px;
+    /* margin: auto; */
+  }
+  .hero p {
+    font-size: 14px;
+    margin: 15px auto 30px;
+  }
+  .home img {
+    flex-basis: 100%;
+    margin-top: 20px;
+  }
+}
