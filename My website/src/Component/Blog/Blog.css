@@ -55,7 +55,7 @@
   color: #707070;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 650px) {
   .blogs {
     flex-direction: column-reverse;
     margin-top: 20px;
