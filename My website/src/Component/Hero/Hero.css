@@ -24,7 +24,7 @@
 }
 
 .home img {
-  max-width: 330px;
+  width: 330px;
   flex-basis: 60%;
   background: #fff;
   padding: 10px 10px;
