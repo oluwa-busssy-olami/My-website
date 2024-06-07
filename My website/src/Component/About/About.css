@@ -7,17 +7,11 @@
 }
 
 .my-profile {
-  width: 300px;
+  max-width: 330px;
   flex-basis: 28%;
   border-radius: 150px 10px 10px 20px;
   background: #fff;
   padding: 10px 10px;
-  /* position: relative;
-  animation: profile;
-  animation-duration: 4s;
-  animation-fill-mode: both;
-  animation-iteration-count: infinite;
-  animation-direction: alternate-reverse; */
 }
 
 .about div {
@@ -78,7 +72,7 @@ h3 {
     margin: 20px;
   }
   .about p {
-    line-height: 1.8;
+    line-height: 2;
     font-size: 18px;
   }
   .social {
