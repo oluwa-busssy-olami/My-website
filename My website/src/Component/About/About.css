@@ -55,7 +55,7 @@ h3 {
   color: #007bff;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   .about {
     flex-direction: column-reverse;
     margin-top: 20px;
